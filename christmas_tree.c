@@ -17,12 +17,12 @@ int main(int argc, char *argv[])
 
     if (argc == 1)
     {
-        printf("Inserire l'altezza dell'albero: ");
+        printf("Insert the Christmas tree height: ");
         scanf("%s", &buffer);
 
         if(!(size = atoi(buffer)))
         {
-            printf("Valore non valido\n");
+            printf("Invalid value\n");
             return EXIT_FAILURE;
         }
     }
@@ -31,7 +31,7 @@ int main(int argc, char *argv[])
         size = atoi(argv[1]);
         if (size == 0)
         {
-            fputs("Argomento non valido\n", stdout);
+            fputs("Invalid argument\n", stdout);
             exit(EXIT_FAILURE);
         }
     }
