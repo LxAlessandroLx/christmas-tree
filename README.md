@@ -4,7 +4,7 @@ A stupid program to draw a Christmas tree of given height written in C
 ## Usage
     ./christams_tree [height]
     
-## Example
+## Examples
 A tree of height `5`
 
            *
